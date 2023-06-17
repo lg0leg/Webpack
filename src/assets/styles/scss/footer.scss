@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  gap: 20px;
+
+  .item {
+    width: 70px;
+    height: 70px;
+    background: url('../icons/github.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .item-2 {
+    width: $icon-size;
+    height: $icon-size;
+    background: url('../icons/star.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
